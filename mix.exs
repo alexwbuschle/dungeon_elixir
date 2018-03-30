@@ -8,7 +8,7 @@ defmodule DungeonCrawl.MixProject do
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      dialyzer: [plt_add_apps: [:mix]]]
+      dialyzer: [plt_add_apps: [:mix]]
     ]
   end
 
